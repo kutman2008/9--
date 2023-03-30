@@ -1,0 +1,68 @@
+body {
+    background: url("img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#elem1 {
+    width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+    background: white;
+    padding: 30px;
+}
+.menu {
+    background: rgb(0, 0, 0);
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu a {
+color: white;
+line-height: 30px;
+display: block;
+padding: 0 10px;
+border: 1px solid black;
+}
+.menu a:hover {
+    background: white;
+    color: black;
+}
+#elem1 h2 {
+    margin: 0;
+}
+.more a:link,
+.more a:visited {
+
+    color: blue;
+    text-decoration: none;
+}.more a:hover {
+text-decoration: underline;
+}
+#elem1 p{
+    margin: 10px 0px;
+    padding: 0;
+    font: 13px/27px Arial;
+
+}
+#elem1 div {
+    margin-bottom: 20px;
+    border: 1px solid #707070;
+    padding: 20px;
+
+}
+#elem1 .more{
+    text-align: right;
+    padding-right: 20px;
+}
+img {
+    float: left;
+    margin: 7px 10px 0px 0px;
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+}
